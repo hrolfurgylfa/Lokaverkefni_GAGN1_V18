@@ -63,10 +63,14 @@ CREATE TABLE Lokaverkefni.lagalisti
 CREATE TABLE Lokaverkefni.tonleikar
 (
 	ID INT PRIMARY KEY AUTO_INCREMENT,
-    flytjendur_tonl VARCHAR(255),
+    lag VARCHAR(255) PRIMARY KEY,
+    flytjandi VARCHAR(255),
     staðsetning VARCHAR(255),
     dagsetning VARCHAR(255),
     midasala INT,
     askrifendur_VP INT,
-    dagskra INT
+    dagskra INT,
+    #Aðgöngulyklar
+    CONSTRAINT lag_FK FOREIGN KEY (lag) REFERENCES lagalisti(nafn_lags),
+    CONSTRAINT Flytjandi_FK FOREIGN KEY (flytjandi) REFERENCES flytjandi(nafn)
 );

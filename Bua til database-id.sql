@@ -56,7 +56,7 @@ CREATE TABLE Lokaverkefni.lagalisti
     utgefandi VARCHAR(255),
     tegund VARCHAR(255),
     #Aðgöngulyklar
-    CONSTRAINT Songvari_FK FOREIGN KEY (songvari) REFERENCES flytjandi(nafn),
+    CONSTRAINT Songvari_FK FOREIGN KEY (songvari) REFERENCES flytjandi(nafn), 
     CONSTRAINT Hofundur_FK FOREIGN KEY (hofundur) REFERENCES hofundur(nafn),
 	CONSTRAINT Utgefandi_FK FOREIGN KEY (utgefandi) REFERENCES utgefandi(nafn)
 );

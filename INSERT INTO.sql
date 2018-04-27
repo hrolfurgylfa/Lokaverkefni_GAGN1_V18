@@ -19,8 +19,8 @@ VALUES
 
 
 INSERT INTO Lokaverkefni.lagalisti
-	(heiti,songvari,hofundur,lengd)
+	(nafn_lags,lengd,texti,utgafudagur,songvari,hofundur,utgefandi,tegund)
 VALUES
-	("Glass Wall","Hatsune Miku English","GuitarHeroPianoZero",281),
-    ("Goodbye","Hatsune Miku English V3","Circus-P",205),
-    ("Hello, Planet","Hatsune Miku","sasakure.UK",308);
+	("Glass Wall",281,,1,3,2014,"Hatsune Miku","GuitarHeroPianoZero","GuitarHeroPianoZero","LATER"),
+    ("Goodbye",205,,14,10,2014,"Hatsune Miku","Circus-P","Circus-P","LATER"),
+    ("Hello, Planet",308,,15,01,2010,"Hatsune Miku","sasakure.UK","sasakure.UK","LATER");

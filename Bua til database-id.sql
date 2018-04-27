@@ -6,9 +6,9 @@ CREATE DATABASE Lokaverkefni;
 CREATE TABLE Lokaverkefni.flytjandi
 (
 	nafn VARCHAR(255) PRIMARY KEY NOT NULL,
-    faedingardagur VARCHAR(3),
-    faedingarmanudur VARCHAR(3),
-    faedingarar VARCHAR(255),
+    faedingardagur CHAR(2),
+    faedingarmanudur CHAR(2),
+    faedingarar CHAR(4),
     aldur INT,
     danardagur VARCHAR(255),
     lysing LONGTEXT,

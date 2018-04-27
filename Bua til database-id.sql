@@ -6,7 +6,10 @@ CREATE DATABASE Lokaverkefni;
 CREATE TABLE Lokaverkefni.flytjandi
 (
 	nafn VARCHAR(255) PRIMARY KEY NOT NULL,
-    faedingardagur VARCHAR(255),
+    faedingardagur VARCHAR(3),
+    faedingarmanudur VARCHAR(3),
+    faedingarar VARCHAR(255),
+    aldur INT,
     danardagur VARCHAR(255),
     lysing LONGTEXT,
     þjoderni VARCHAR(50)
@@ -14,7 +17,10 @@ CREATE TABLE Lokaverkefni.flytjandi
 CREATE TABLE Lokaverkefni.hofundur
 (
 	nafn VARCHAR(255) PRIMARY KEY NOT NULL,
-    faedingardagur VARCHAR(255),
+    faedingardagur VARCHAR(3),
+    faedingarmanudur VARCHAR(3),
+    faedingarar VARCHAR(255),
+    aldur INT,
     danardagur VARCHAR(255),
     þjoderni VARCHAR(50)
 );
@@ -29,7 +35,9 @@ CREATE TABLE Lokaverkefni.askrifandi
 (
 	nafn VARCHAR(255) PRIMARY KEY,
     tolvupostfang VARCHAR(255),
-    heimili VARCHAR(255)
+    heimilisfang VARCHAR(255),
+    baer VARCHAR(255),
+    land VARCHAR(255)
 );
 CREATE TABLE Lokaverkefni.lagaval
 (
@@ -47,6 +55,7 @@ CREATE TABLE Lokaverkefni.midasala
     fjöldi_mida INT,
     stadsetning VARCHAR(255),
     dagsetning VARCHAR(255),
+    verd Int,
     #Aðgöngulyklar
     CONSTRAINT midasala_Songvari_FK FOREIGN KEY (flytjandi) REFERENCES flytjandi(nafn)
 );

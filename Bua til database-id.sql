@@ -34,14 +34,16 @@ CREATE TABLE Lokaverkefni.utgefandi
 CREATE TABLE Lokaverkefni.askrifandi
 (
 	nafn VARCHAR(255) PRIMARY KEY,
+    aldur INT,
     tolvupostfang VARCHAR(255),
     heimilisfang VARCHAR(255),
     baer VARCHAR(255),
     land VARCHAR(255)
 );
 CREATE TABLE Lokaverkefni.lagaval
-(
+(	
 	lagaval_ID INT AUTO_INCREMENT PRIMARY KEY,
+	Tonleikanumer_ID INT,
 	askrifandi VARCHAR(255),
     flytjandi VARCHAR(255),
     lag VARCHAR(255),
@@ -50,15 +52,16 @@ CREATE TABLE Lokaverkefni.lagaval
     CONSTRAINT lagaval_Songvari_FK FOREIGN KEY (flytjandi) REFERENCES flytjandi(nafn),
     CONSTRAINT askrifandi_FK FOREIGN KEY (askrifandi) REFERENCES askrifandi(nafn)
 );
-CREATE TABLE Lokaverkefni.midasala
-(
-	flytjandi VARCHAR(255) PRIMARY KEY,
+CREATE TABLE Lokaverkefni.tonleikar
+(	
+	Tonleikanumer_ID INT PRIMARY KEY,
+	flytjandi VARCHAR(255),
     fjöldi_mida INT,
     stadsetning VARCHAR(255),
     dagsetning VARCHAR(255),
     verd Int,
     #Aðgöngulyklar
-    CONSTRAINT midasala_Songvari_FK FOREIGN KEY (flytjandi) REFERENCES flytjandi(nafn)
+    CONSTRAINT tonleikar_Songvari_FK FOREIGN KEY (flytjandi) REFERENCES flytjandi(nafn)
 );
 CREATE TABLE Lokaverkefni.lagalisti
 (

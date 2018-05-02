@@ -27,24 +27,33 @@ VALUES
     ("Goodbye",205,'',14,10,2014,"Hatsune Miku","Circus-P","Circus-P","LATER"),
     ("Hello, Planet",308,'',15,01,2010,"Hatsune Miku","sasakure.UK","sasakure.UK","LATER");
 
-INSERT INTO Lokaverkefni.midasala
+INSERT INTO Lokaverkefni.tonleikar
 	(flytjandi,fjöldi_mida,stadsetning,dagsetning,verd)
 VALUES
-	("Hatsune Miku",4,"Shanghi","24/5/2018",3500);
+	("Hatsune Miku",4,"Shanghi","24/5/2018",3500),
+    ("Hatsune Miku",2,"Florida","6/6/2018",2500);
     
     
 INSERT INTO Lokaverkefni.askrifandi
 	(nafn,tolvupostfang,heimilisfang,baer,land)
 VALUES
-	("Páll Pálsson","Pall@gmail.com","Neðstaleiti 6","Reykjavík","Ísland"),
-    ("Ingibjörg Pálsdóttir","Ingibjorg@gmail.com","Neðstaleiti 6","Reykjavík","Ísland");
+	("Páll Pálsson",33,"Pall@gmail.com","Neðstaleiti 6","Reykjavík","Ísland"),
+    ("Ingibjörg Pálsdóttir",6,"Ingibjorg@gmail.com","Neðstaleiti 6","Reykjavík","Ísland"),
+    ("Ásta Sveinsdóttir",16,"Asta@gmail.com","Norðurhraun 2","Garðabær","Ísland"),
+    ("Katrín Kristjánsdóttir",17,"Katrin@gmail.com","Miðhraun 12","Garðabær","Ísland");
 
 
 INSERT INTO Lokaverkefni.lagaval
-	(askrifandi,flytjandi,lag,dagsetning)
+	(Tonleikanumer_ID,askrifandi,flytjandi,lag,dagsetning)
 VALUES
-	("Páll Pálsson","Hatsune Miku","Glass Wall","24/5/2018"),
-    ("Ingibjörg Pálsdóttir","Hatsune Miku","Glass Wall","24/5/2018"),
-    ("Páll Pálsson","Hatsune Miku","Goodbye","24/5/2018"),
-    ("Ingibjörg Pálsdóttir","Hatsune Miku","Goodbye","24/5/2018");
+	(1,"Páll Pálsson","Hatsune Miku","Glass Wall","24/5/2018"),
+    (1,"Ingibjörg Pálsdóttir","Hatsune Miku","Glass Wall","24/5/2018"),
+    (1,"Páll Pálsson","Hatsune Miku","Goodbye","24/5/2018"),
+	(1,"Ingibjörg Pálsdóttir","Hatsune Miku","Goodbye","24/5/2018"),
+    (2,"Ásta Sveinsdóttir","Hatsune Miku","Goodbye","6/6/2018"),
+    (2,"Katrín Kristjánsdóttir","Hatsune Miku","Goodbye","6/6/2018"),
+    (2,"Ásta Sveinsdóttir","Hatsune Miku","Glass Wall","6/6/2018"),
+    (2,"Katrín Kristjánsdóttir","Hatsune Miku","Glass Wall","6/6/2018"),
+    (2,"Ásta Sveinsdóttir","Hatsune Miku","Hello, Planet","6/6/2018"),
+    (2,"Katrín Kristjánsdóttir","Hatsune Miku","Hello, Planet","6/6/2018");
 

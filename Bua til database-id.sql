@@ -65,7 +65,8 @@ CREATE TABLE Lokaverkefni.tonleikar
 );
 CREATE TABLE Lokaverkefni.lagalisti
 (
-	nafn_lags VARCHAR(255) PRIMARY KEY NOT NULL,
+	lag_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+	nafn_lags VARCHAR(255),
     lengd INT,
     texti LONGTEXT,
     utgafudagur CHAR(2),

@@ -17,7 +17,9 @@ INSERT INTO Lokaverkefni.utgefandi
 VALUES
 	("GuitarHeroPianoZero","FILLA ÚT","Nei","Japan"),
     ("Circus-P","FILLA ÚT","Nei","Canada"),
-    ("sasakure.UK","FILLA ÚT","Nei","UK");
+    ("sasakure.UK","FILLA ÚT","Nei","UK"),
+    ("Asylum Records","Engin Sérstök Stefna","Nei","USA"),
+    ("Atlantic Records","Engin Sérstök Stefna","Já","USA");
 
 
 INSERT INTO Lokaverkefni.lagalisti
@@ -25,4 +27,5 @@ INSERT INTO Lokaverkefni.lagalisti
 VALUES
 	("Glass Wall",281,'',1,3,2014,"Hatsune Miku","GuitarHeroPianoZero","GuitarHeroPianoZero","LATER"),
     ("Goodbye",205,'',14,10,2014,"Hatsune Miku","Circus-P","Circus-P","LATER"),
-    ("Hello, Planet",308,'',15,01,2010,"Hatsune Miku","sasakure.UK","sasakure.UK","LATER");
+    ("Hello, Planet",308,'',15,01,2010,"Hatsune Miku","sasakure.UK","sasakure.UK","LATER"),
+    ("What do i know",237,'',3,3,2017,"Ed Sheeran","Ed Sheeran,Jhonny McDaid,Foy Vance","Asylum Records,Atlantic Records","POP");

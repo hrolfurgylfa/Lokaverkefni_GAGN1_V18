@@ -26,3 +26,25 @@ VALUES
 	("Glass Wall",281,'',1,3,2014,"Hatsune Miku","GuitarHeroPianoZero","GuitarHeroPianoZero","LATER"),
     ("Goodbye",205,'',14,10,2014,"Hatsune Miku","Circus-P","Circus-P","LATER"),
     ("Hello, Planet",308,'',15,01,2010,"Hatsune Miku","sasakure.UK","sasakure.UK","LATER");
+
+INSERT INTO Lokaverkefni.midasala
+	(flytjandi,fjöldi_mida,stadsetning,dagsetning,verd)
+VALUES
+	("Hatsune Miku",4,"Shanghi","24/5/2018",3500);
+    
+    
+INSERT INTO Lokaverkefni.askrifandi
+	(nafn,tolvupostfang,heimilisfang,baer,land)
+VALUES
+	("Páll Pálsson","Pall@gmail.com","Neðstaleiti 6","Reykjavík","Ísland"),
+    ("Ingibjörg Pálsdóttir","Ingibjorg@gmail.com","Neðstaleiti 6","Reykjavík","Ísland");
+
+
+INSERT INTO Lokaverkefni.lagaval
+	(askrifandi,flytjandi,lag,dagsetning)
+VALUES
+	("Páll Pálsson","Hatsune Miku","Glass Wall","24/5/2018"),
+    ("Ingibjörg Pálsdóttir","Hatsune Miku","Glass Wall","24/5/2018"),
+    ("Páll Pálsson","Hatsune Miku","Goodbye","24/5/2018"),
+    ("Ingibjörg Pálsdóttir","Hatsune Miku","Goodbye","24/5/2018");
+

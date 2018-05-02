@@ -41,7 +41,8 @@ CREATE TABLE Lokaverkefni.askrifandi
 );
 CREATE TABLE Lokaverkefni.lagaval
 (
-	askrifandi VARCHAR(255) PRIMARY KEY,
+	lagaval_ID INT AUTO_INCREMENT PRIMARY KEY,
+	askrifandi VARCHAR(255),
     flytjandi VARCHAR(255),
     lag VARCHAR(255),
     dagsetning VARCHAR(255),

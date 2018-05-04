@@ -25,7 +25,7 @@ VALUES
     ("Atlantic Records","Engin Sérstök Stefna","Já","USA");
     
 INSERT INTO Lokaverkefni.askrifandi
-	(nafn,tolvupostfang,heimilisfang,baer,land)
+	(nafn,aldur,tolvupostfang,heimilisfang,baer,land)
 VALUES
 	("Páll Pálsson",33,"Pall@gmail.com","Neðstaleiti 6","Reykjavík","Ísland"),
     ("Ingibjörg Pálsdóttir",6,"Ingibjorg@gmail.com","Neðstaleiti 6","Reykjavík","Ísland"),
@@ -58,6 +58,5 @@ VALUES
 	("Glass Wall",281,'',1,3,2014,"Hatsune Miku","GuitarHeroPianoZero","GuitarHeroPianoZero","LATER"),
     ("Goodbye",205,'',14,10,2014,"Hatsune Miku","Circus-P","Circus-P","LATER"),
     ("Hello, Planet",308,'',15,01,2010,"Hatsune Miku","sasakure.UK","sasakure.UK","LATER"),
-    ("What do i know",237,'',3,3,2017,"Ed Sheeran","Ed Sheeran,Johnny McDaid,Foy Vance","Asylum Records,Atlantic Records","POP"),
-	("Shape Of You",233,'',6,1,2017,"Ed Sheeran","Ed Sheeran","");
+    ("What do i know",237,'',3,3,2017,"Ed Sheeran","Johnny McDaid","Asylum Records","POP");
 

@@ -40,6 +40,17 @@ CREATE TABLE Lokaverkefni.askrifandi
     baer VARCHAR(255),
     land VARCHAR(255)
 );
+CREATE TABLE Lokaverkefni.tonleikar
+(	
+	Tonleikanumer_ID INT PRIMARY KEY,
+	flytjandi VARCHAR(255),
+    fjöldi_mida INT,
+    stadsetning VARCHAR(255),
+    dagsetning VARCHAR(255),
+    verd Int,
+    #Aðgöngulyklar
+    CONSTRAINT tonleikar_Songvari_FK FOREIGN KEY (flytjandi) REFERENCES flytjandi(nafn)
+);
 CREATE TABLE Lokaverkefni.lagaval
 (	
 	lagaval_ID INT AUTO_INCREMENT PRIMARY KEY,
@@ -52,21 +63,9 @@ CREATE TABLE Lokaverkefni.lagaval
     CONSTRAINT lagaval_Songvari_FK FOREIGN KEY (flytjandi) REFERENCES flytjandi(nafn),
     CONSTRAINT askrifandi_FK FOREIGN KEY (askrifandi) REFERENCES askrifandi(nafn)
 );
-CREATE TABLE Lokaverkefni.tonleikar
-(	
-	Tonleikanumer_ID INT PRIMARY KEY,
-	flytjandi VARCHAR(255),
-    fjöldi_mida INT,
-    stadsetning VARCHAR(255),
-    dagsetning VARCHAR(255),
-    verd Int,
-    #Aðgöngulyklar
-    CONSTRAINT tonleikar_Songvari_FK FOREIGN KEY (flytjandi) REFERENCES flytjandi(nafn)
-);
 CREATE TABLE Lokaverkefni.lagalisti
 (
-	lag_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-	nafn_lags VARCHAR(255),
+	nafn_lags VARCHAR(255) PRIMARY KEY,
     lengd INT,
     texti LONGTEXT,
     utgafudagur CHAR(2),

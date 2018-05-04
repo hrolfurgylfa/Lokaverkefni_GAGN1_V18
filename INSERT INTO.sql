@@ -23,26 +23,6 @@ VALUES
     ("sasakure.UK","FILLA ÚT","Nei","UK"),
     ("Asylum Records","Engin Sérstök Stefna","Nei","USA"),
     ("Atlantic Records","Engin Sérstök Stefna","Já","USA");
-
-
-INSERT INTO Lokaverkefni.lagalisti
-	(nafn_lags,lengd,texti,utgafudagur,utgafumanudur,utgafuar,songvari,hofundur,utgefandi,tegund)
-VALUES
-	("Glass Wall",281,'',1,3,2014,"Hatsune Miku","GuitarHeroPianoZero","GuitarHeroPianoZero","LATER"),
-    ("Goodbye",205,'',14,10,2014,"Hatsune Miku","Circus-P","Circus-P","LATER"),
-    ("Hello, Planet",308,'',15,01,2010,"Hatsune Miku","sasakure.UK","sasakure.UK","LATER"),
-<<<<<<< HEAD
-    ("What do i know",237,'',3,3,2017,"Ed Sheeran","Ed Sheeran,Johnny McDaid,Foy Vance","Asylum Records,Atlantic Records","POP");
-=======
-    ("What do i know",237,'',3,3,2017,"Ed Sheeran","Ed Sheeran","Asylum Records","POP"),
-	("Shape Of You",233,'',6,1,2017,"Ed Sheeran","Ed Sheeran","");
->>>>>>> 278e76ea6c6d5d7f9dd514effb02ab9d3e2cda4d
-INSERT INTO Lokaverkefni.tonleikar
-	(flytjandi,fjöldi_mida,stadsetning,dagsetning,verd)
-VALUES
-	("Hatsune Miku",4,"Shanghi","24/5/2018",3500),
-    ("Hatsune Miku",2,"Florida","6/6/2018",2500);
-    
     
 INSERT INTO Lokaverkefni.askrifandi
 	(nafn,tolvupostfang,heimilisfang,baer,land)
@@ -51,7 +31,12 @@ VALUES
     ("Ingibjörg Pálsdóttir",6,"Ingibjorg@gmail.com","Neðstaleiti 6","Reykjavík","Ísland"),
     ("Ásta Sveinsdóttir",16,"Asta@gmail.com","Norðurhraun 2","Garðabær","Ísland"),
     ("Katrín Kristjánsdóttir",17,"Katrin@gmail.com","Miðhraun 12","Garðabær","Ísland");
-
+    
+INSERT INTO Lokaverkefni.tonleikar
+	(flytjandi,fjöldi_mida,stadsetning,dagsetning,verd)
+VALUES
+	("Hatsune Miku",4,"Shanghi","24/5/2018",3500),
+    ("Hatsune Miku",2,"Florida","6/6/2018",2500);
 
 INSERT INTO Lokaverkefni.lagaval
 	(Tonleikanumer_ID,askrifandi,flytjandi,lag,dagsetning)
@@ -67,4 +52,12 @@ VALUES
     (2,"Ásta Sveinsdóttir","Hatsune Miku","Hello, Planet","6/6/2018"),
     (2,"Katrín Kristjánsdóttir","Hatsune Miku","Hello, Planet","6/6/2018");
 
+INSERT INTO Lokaverkefni.lagalisti
+	(nafn_lags,lengd,texti,utgafudagur,utgafumanudur,utgafuar,songvari,hofundur,utgefandi,tegund)
+VALUES
+	("Glass Wall",281,'',1,3,2014,"Hatsune Miku","GuitarHeroPianoZero","GuitarHeroPianoZero","LATER"),
+    ("Goodbye",205,'',14,10,2014,"Hatsune Miku","Circus-P","Circus-P","LATER"),
+    ("Hello, Planet",308,'',15,01,2010,"Hatsune Miku","sasakure.UK","sasakure.UK","LATER"),
+    ("What do i know",237,'',3,3,2017,"Ed Sheeran","Ed Sheeran,Johnny McDaid,Foy Vance","Asylum Records,Atlantic Records","POP"),
+	("Shape Of You",233,'',6,1,2017,"Ed Sheeran","Ed Sheeran","");
 

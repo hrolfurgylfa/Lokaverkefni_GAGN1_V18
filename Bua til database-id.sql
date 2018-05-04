@@ -26,14 +26,14 @@ CREATE TABLE Lokaverkefni.hofundur
 );
 CREATE TABLE Lokaverkefni.utgefandi
 (
-    nafn VARCHAR(255) PRIMARY KEY,
+    nafn VARCHAR(255) PRIMARY KEY NOT NULL,
     stefna VARCHAR(255),
     copyright VARCHAR(255),
     Staðsetning VARCHAR(255)
 );
 CREATE TABLE Lokaverkefni.askrifandi
 (
-	nafn VARCHAR(255) PRIMARY KEY,
+	nafn VARCHAR(255) PRIMARY KEY NOT NULL,
     aldur INT,
     tolvupostfang VARCHAR(255),
     heimilisfang VARCHAR(255),
@@ -42,7 +42,7 @@ CREATE TABLE Lokaverkefni.askrifandi
 );
 CREATE TABLE Lokaverkefni.tonleikar
 (	
-	Tonleikanumer_ID INT PRIMARY KEY,
+	Tonleikanumer_ID INT PRIMARY KEY NOT NULL,
 	flytjandi VARCHAR(255),
     fjöldi_mida INT,
     stadsetning VARCHAR(255),
@@ -53,7 +53,7 @@ CREATE TABLE Lokaverkefni.tonleikar
 );
 CREATE TABLE Lokaverkefni.lagaval
 (	
-	lagaval_ID INT AUTO_INCREMENT PRIMARY KEY,
+	lagaval_ID INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
 	Tonleikanumer_ID INT,
 	askrifandi VARCHAR(255),
     flytjandi VARCHAR(255),
@@ -65,7 +65,7 @@ CREATE TABLE Lokaverkefni.lagaval
 );
 CREATE TABLE Lokaverkefni.lagalisti
 (
-	nafn_lags VARCHAR(255) PRIMARY KEY,
+	nafn_lags VARCHAR(255) PRIMARY KEY NOT NULL,
     lengd INT,
     texti LONGTEXT,
     utgafudagur CHAR(2),

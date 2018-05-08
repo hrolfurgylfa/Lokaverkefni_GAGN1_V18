@@ -3,7 +3,7 @@ INSERT INTO Lokaverkefni.flytjandi
 VALUES
 	("Ed Sheeran","17","02","1991",27,"Nei","Edward Christopher Sheeran is an English singer, songwriter, guitarist, record producer, and actor. Examples of albums made by Ed are Plus,multiply and his most reacent divide. Popular songs made by the artist are 'shape of you', 'Perfect' and 'i see fire' which was the song played at the credits of the hobbit","England"),
 	("Hatsune Miku","31","08","2007",16,"Nei","Hatsune Miku is the name of a Vocaloid software voicebank developed by Crypton Future Media, and its official moe anthropomorphism, a 16-year-old girl with long, turquoise twintails. She uses Yamaha Corporation's Vocaloid 2, Vocaloid 3 and Vocaloid 4 singing synthesizing technologies. She also uses Crypton Future Media's Piapro Studio, a singing synthesizer VSTi Plugin. She was the second Vocaloid sold using the Vocaloid 2 engine, and the first Japanese Vocaloid to use the Japanese version of the Vocaloid 2 engine. Her voice is modeled from Japanese voice actress Saki Fujita. Hatsune Miku's personification has been marketed as a virtual idol, and has performed at concerts onstage as an animated projection (rear cast projection on a specially coated glass screen).","Japan"),
-    ("","","","",,"","",""),
+    ("The Beatles","n/a","n/a","1957",13,"1970","The Beatles were an English rock band formed in Liverpool in 1960. With members John Lennon, Paul McCartney, George Harrison and Ringo Starr, they became widely regarded as the foremost and most influential music band.[1] Rooted in skiffle, beat and 1950s rock and roll, the Beatles later experimented with several musical styles, ranging from pop ballads and Indian music to psychedelia and hard rock, often incorporating classical elements and unconventional recording techniques in innovative ways. In 1963 their enormous popularity first emerged as Beatlemania as the group's music grew in sophistication, led by primary songwriters Lennon and McCartney, the band were integral to pop music's evolution into an art form and to the development of the counterculture of the 1960s.","England"),
     ("","","","",,"","",""),
     ("","","","",,"","",""),
     ("","","","",,"","",""),
@@ -19,7 +19,8 @@ VALUES
     ("Circus-P","","","",26,"Nei","Canada"),
     ("sasakure.UK","","","",23,"Nei","UK"),
     ("Ed Sheeran","17","02","1991",27,"Nei","UK"),
-    ("Official Microsoft TechSupport","17","02","1979",27,"Nei","India");
+    ("Official Microsoft TechSupport","17","02","1979",27,"Nei","India"),
+    ("George Harrison","25","02","1943",58,"29/11/2001","England");
     
 INSERT INTO Lokaverkefni.utgefandi
 	(nafn,stefna,copyright,Staðsetning)
@@ -29,7 +30,8 @@ VALUES
     ("sasakure.UK","Engin Sérstök Stefna","Nei","UK"),
     ("Asylum Records","Engin Sérstök Stefna","Nei","USA"),
     ("Atlantic Records","Engin Sérstök Stefna","Já","USA"),
-    ("Official Microsoft TechSupport","scams","Já","India");
+    ("Official Microsoft TechSupport","scams","Já","India"),
+    ("Apple Records","Margar","nei","UK");
     
 INSERT INTO Lokaverkefni.askrifandi
 	(nafn,aldur,tolvupostfang,heimilisfang,baer,land)
@@ -46,7 +48,8 @@ INSERT INTO Lokaverkefni.tonleikar
 	(flytjandi,fjöldi_mida,stadsetning,dagsetning,verd)
 VALUES
 	("Hatsune Miku",4,"Shanghi","24/5/2018",3500),
-    ("Hatsune Miku",2,"Florida","6/6/2018",2500);
+    ("Hatsune Miku",2,"Florida","6/6/2018",2500),
+    ("Ed Sheeran",4,"Belfast","6/7/2018",3000);
 
 INSERT INTO Lokaverkefni.lagaval
 	(Tonleikanumer_ID,askrifandi,flytjandi,lag,dagsetning)
@@ -96,7 +99,7 @@ VALUES
 	("What do i know",237,"Lorem Ipsum",3,3,2017,"Ed Sheeran","Ed Sheeran","Atlantic Records","POP"),#Tónlistamaður 2
 	("Shape Of You",233,"Lorem Ipsum",6,1,2017,"Ed Sheeran","Ed Sheeran","Atlantic Records","POP"),
     ("Eraser",277,"Lorem Ipsum",3,4,2017,"Ed Sheeran","Ed Sheeran","Atlantic Records","Acoustic hip hop"),
-    ("",,"Lorem Ipsum",,,,"","","","Klasísk"),#Tónlistamaður 3
+    ("Here Comes the Sun",193,"Lorem Ipsum",0,0,1969,"The Beatles","George Harrison","Apple Records","POP Rock"),#Tónlistamaður 3
     ("",,"Lorem Ipsum",,,,"","","","Klasísk"),
     ("",,"Lorem Ipsum",,,,"","","","Klasísk"),
 	("",,"Lorem Ipsum",,,,"","","","Pop"),#Tónlistamaður 4

@@ -102,7 +102,7 @@ VALUES
     ("Here Comes the Sun",193,"Lorem Ipsum",0,0,1969,"The Beatles","George Harrison","Apple Records","POP Rock"),#Tónlistamaður 3
     ("",,"Lorem Ipsum",,,,"","","","Klasísk"),
     ("",,"Lorem Ipsum",,,,"","","","Klasísk"),
-	("Ill Be Scaming You Tonight",,"Lorem Ipsum",,,,"","","","Pop"),#Tónlistamaður 4
+	("Ill Be Scaming You Tonight",280,"Lorem Ipsum",12,12,2012,"Daniel","Official Microsoft TechSupport","Official Microsoft TechSupport","Pop"),#Tónlistamaður 4
     ("",,"Lorem Ipsum",,,,"","","","Pop"),
     ("",,"Lorem Ipsum",,,,"","","","Pop"),
 	("",,"Lorem Ipsum",,,,"","","","Jass"),#Tónlistamaður 5

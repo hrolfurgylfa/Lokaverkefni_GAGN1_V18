@@ -50,23 +50,21 @@ VALUES
 	("Hatsune Miku",4,"Shanghi","24/5/2018",3500),
     ("Hatsune Miku",2,"Florida","6/6/2018",2500),
     ("Ed Sheeran",4,"Belfast","6/7/2018",3000),
-    ("Donald John Trump",9000000,"Alabama, We Need To Build a Wall!","1/2/2016",0),
-    ("ABBA",62,"Mamma mia","12/4/2019",6000),
-    ("The Indian Tech Support",15,"Scamin' you","6/10/2018",20000);
+    ("Donald John Trump",9000000,"Alabama, We Need To Build a Wall!","1/2/2016",0),;
 
 INSERT INTO Lokaverkefni.lagaval
 	(Tonleikanumer_ID,askrifandi,flytjandi,lag,dagsetning)
 VALUES
 	(1,"Páll Pálsson","Hatsune Miku","Glass Wall","24/5/2018"),#Notandi 1
     (1,"Páll Pálsson","Hatsune Miku","Goodbye","24/5/2018"),
-    (1,"Páll Pálsson","Donald John Trump","The Zoo","1/2/2016"),
-    (1,"Páll Pálsson","Donald John Trump","The Wall","1/2/2016"),
-    (1,"Páll Pálsson","Donald John Trump","5G","1/2/2016"),
+    (4,"Páll Pálsson","Donald John Trump","The Zoo","1/2/2016"),
+    (4,"Páll Pálsson","Donald John Trump","The Wall","1/2/2016"),
+    (4,"Páll Pálsson","Donald John Trump","5G","1/2/2016"),
     (1,"Ingibjörg Pálsdóttir","Hatsune Miku","Glass Wall","24/5/2018"),#Notandi 2
 	(1,"Ingibjörg Pálsdóttir","Hatsune Miku","Goodbye","24/5/2018"),
-    (1,"Ingibjörg Pálsdóttir","","",""),
-    (1,"Ingibjörg Pálsdóttir","","",""),
-    (1,"Ingibjörg Pálsdóttir","","",""),
+    (4,"Ingibjörg Pálsdóttir","Donald John Trump","The Zoo","1/2/2016"),
+    (4,"Ingibjörg Pálsdóttir","Donald John Trump","The Wall","1/2/2016"),
+    (4,"Ingibjörg Pálsdóttir","Donald John Trump","5G","1/2/2016"),
     (1,"Sigurður Davíð Guðjónsson","","",""),#Notandi 3
     (1,"Sigurður Davíð Guðjónsson","","",""),
     (1,"Sigurður Davíð Guðjónsson","","",""),

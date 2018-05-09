@@ -50,8 +50,8 @@ VALUES
 	("Hatsune Miku",4,"Shanghi","24/5/2018",3500),
     ("Hatsune Miku",2,"Florida","6/6/2018",2500),
     ("Ed Sheeran",4,"Belfast","6/7/2018",3000),
-    ("Donald John Trump",9000000,"Alabama, We Need To Build a Wall!","1/2/2016",0),;
-
+    ("Donald John Trump",9000000,"Alabama, We Need To Build a Wall!","1/2/2016",0),
+    ("Daniel",56,"Scaming in Chicago","12/6/2018",1000000);
 INSERT INTO Lokaverkefni.lagaval
 	(Tonleikanumer_ID,askrifandi,flytjandi,lag,dagsetning)
 VALUES

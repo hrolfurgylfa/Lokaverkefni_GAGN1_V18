@@ -44,9 +44,9 @@ VALUES
 INSERT INTO Lokaverkefni.tonleikar
 	(flytjandi,fjöldi_mida,stadsetning,dagsetning,verd)
 VALUES
-	("Hatsune Miku",4,"Shanghi","24/5/2018",3500),
-    ("Hatsune Miku",2,"Florida","6/6/2018",2500),
-    ("Ed Sheeran",4,"Belfast","6/7/2018",3000),
+	("Hatsune Miku",53,"Shanghi","24/5/2018",3500),
+    ("Hatsune Miku",82,"Florida","6/6/2018",2500),
+    ("Ed Sheeran",96,"Belfast","6/7/2018",3000),
     ("Donald John Trump",9000000,"Alabama, We Need To Build a Wall!","1/2/2016",0),;
 
 INSERT INTO Lokaverkefni.lagaval

@@ -56,9 +56,9 @@ INSERT INTO Lokaverkefni.lagaval
 VALUES
 	(1,"Páll Pálsson","Hatsune Miku","Glass Wall","24/5/2018"),#Notandi 1
     (1,"Páll Pálsson","Hatsune Miku","Goodbye","24/5/2018"),
-    (1,"Páll Pálsson","ABBA","","12/4/2019"),
-    (1,"Páll Pálsson","Donald John Trump","","1/2/2016"),
-    (1,"Páll Pálsson","The Indian Tech Support","",""),
+    (1,"Páll Pálsson","Donald John Trump","The Zoo","1/2/2016"),
+    (1,"Páll Pálsson","Donald John Trump","The Wall","1/2/2016"),
+    (1,"Páll Pálsson","Donald John Trump","5G","1/2/2016"),
     (1,"Ingibjörg Pálsdóttir","Hatsune Miku","Glass Wall","24/5/2018"),#Notandi 2
 	(1,"Ingibjörg Pálsdóttir","Hatsune Miku","Goodbye","24/5/2018"),
     (1,"Ingibjörg Pálsdóttir","","",""),
@@ -78,17 +78,7 @@ VALUES
     (2,"Katrín Kristjánsdóttir","Hatsune Miku","Glass Wall","6/6/2018"),
     (2,"Katrín Kristjánsdóttir","Hatsune Miku","Goodbye","6/6/2018"),
     (2,"Katrín Kristjánsdóttir","","",""),
-    (2,"Katrín Kristjánsdóttir","","",""),
-    (2,"Ásta Sveinsdóttir","Hatsune Miku","Goodbye","6/6/2018"),#Notandi 6
-    (2,"Ásta Sveinsdóttir","Hatsune Miku","Glass Wall","6/6/2018"),
-    (2,"Ásta Sveinsdóttir","Hatsune Miku","Hello, Planet","6/6/2018"),
-    (2,"Ásta Sveinsdóttir","","",""),
-    (2,"Ásta Sveinsdóttir","","",""),
-    (2,"Helga Unnur Arnarsdóttir","","",""),#Notandi 7
-    (2,"Helga Unnur Arnarsdóttir","","",""),
-    (2,"Helga Unnur Arnarsdóttir","","",""),
-    (2,"Helga Unnur Arnarsdóttir","","",""),
-    (2,"Helga Unnur Arnarsdóttir","","","");
+    (2,"Katrín Kristjánsdóttir","","","");
 
 INSERT INTO Lokaverkefni.lagalisti
 	(nafn_lags,lengd,texti,utgafudagur,utgafumanudur,utgafuar,songvari,hofundur,utgefandi,tegund)

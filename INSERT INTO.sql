@@ -7,19 +7,20 @@ VALUES
     ("Daniel","20","04","1990",28,"Nei","Daniel is the CEO of the local call center where they specify in scaming people for money","Local Call Center in India"),
     ("David Bowie","08","01","1947",69,"10/01/2016","David Robert Jones (8 January 1947 – 10 January 2016), known professionally as David Bowie (/ˈboʊi/),[2] was an English singer-songwriter and actor. He was a leading figure in popular music for over five decades, acclaimed by critics and fellow musicians for his innovative work. His career was marked by reinvention and visual presentation, his music and stagecraft significantly influencing popular music. During his lifetime, his record sales, estimated at 140 million albums worldwide, made him one of the world's best-selling music artists. In the UK, he was awarded nine platinum album certifications, eleven gold and eight silver, releasing eleven number-one albums. In the US, he received five platinum and nine gold certifications. He was inducted into the Rock and Roll Hall of Fame in 1996.","England"),
     ("Mihcael Jackson","29","09","1958",51,"25/06/2009","Michael Joseph Jackson (August 29, 1958 – June 25, 2009) was an American singer, songwriter, and dancer. Dubbed the King of Pop, he was one of the most popular entertainers in the world, and was the best-selling music artist during the year of his death. Jackson's contributions to music, dance, and fashion along with his publicized personal life made him a global figure in popular culture for over four decades.","US"),
-    ("","","","",,"","",""),
-    ("","","","",,"","",""),
-    ("","","","",,"","",""),
-    ("","","","",,"","","");
+    ("The Indian Tech Support","23","06","2005",13,"Nei","The Indian Tech Support is a band of indian men who work at a Official Microsoft Tech Support company by day and create music by night","India"),
+    ("ABBA","n/a","n/a","1972",46,"1982","ABBA var vinsæl sænsk popphljómsveit, sem starfaði frá 1972 til 1982. Hljómsveitin varð fræg er hún vann Eurovision keppnina árið 1974, með laginu „Waterloo“. ABBA var ein af vinsælustu hljómsveitum heims á diskóárunum og átti marga góða smelli fyrir utan Waterloo, m.a. „Dancing Queen“, „Mamma Mia“ og „Money, Money, Money“. Meðlimir hljómsveitarinnar voru: Anni-Frid Lyngstad, Benny Andersson, Björn Ulvaeus og Agnetha Fältskog og var nafn hljómsveitarinnar myndað úr upphafsstöfum nafna þeirra. Þau Agnetha og Björn voru hjón á tímabilinu 1971 til 1979. Síðar giftust Benny og Anni-Frid og voru gift á árunum 1978 til 1981.","Svíþjóð"),
+    ("Elvis Aaron Presley","8","1","1935",83,"1977","Elvis Aaron Presley (8. janúar 1935 - 16. ágúst 1977) var bandarískur tónlistarmaður sem naut mikilla vinsælda á síðustu öld. Hann var líka þekktur sem The King,King of Rock'n Roll,Elvis the Pelvis og The Hillbilly Cat. Meðal laga hans eru In The Ghetto, Jailhouse Rock og Blue Suede Shoes. Elvis Presley var kallaður til herskyldu í bandaríska hernum árið 1958 fram til 1960 og dvaldi í Þýskalandi megnið af þeim tíma. Þar kynntist hann Priscilla Wagner (síðar Priscilla Presley) og giftu þau sig 1. maí árið 1967 og eignuðust 1968 dótturina Lisu Marie Presley.","USA"),
+    ("Donald John Trump","14","6","1946",71,"Nei","Donald John Trump (born June 14, 1946) is the 45th and current President of the United States, in office since January 20, 2017. Before entering politics, he was a great and famous singer. Trump was born and raised in the New York City borough of Queens, and received an economics degree from the Wharton School of the University of Pennsylvania. He became head of his family's real estate business in 1971, renamed it The Trump Organization, and expanded it to involve the construction and renovation of skyscrapers, hotels, casinos, and golf courses. Trump also started various side ventures, including branding and licensing his name for real estate and consumer products. He managed the company until his 2017 inauguration. Trump also gained prominence in media and entertainment, and co-authored several books, including The Art of the Deal. He owned the Miss Universe and Miss USA beauty pageants from 1996 to 2015 and was a producer and the host of the reality television game show The Apprentice from 2003 to 2015. According to March 2018 estimates by Forbes, he is the world's 766th richest person, with a net worth of US$3.1 billion.","USA");
 INSERT INTO Lokaverkefni.hofundur
 	(nafn,faedingardagur,faedingarmanudur,faedingarar,aldur,danardagur,þjoderni)
 VALUES
-	("GuitarHeroPianoZero","","","",31,"Nei","Japan"),
-    ("Circus-P","","","",26,"Nei","Canada"),
-    ("sasakure.UK","","","",23,"Nei","UK"),
+	("GuitarHeroPianoZero","n/a","n/a","n/a",31,"Nei","Japan"),
+    ("Circus-P","n/a","n/a","n/a",26,"Nei","Canada"),
+    ("sasakure.UK","n/a","n/a","n/a",23,"Nei","UK"),
     ("Ed Sheeran","17","02","1991",27,"Nei","UK"),
     ("Official Microsoft TechSupport","17","02","1979",27,"Nei","India"),
-    ("George Harrison","25","02","1943",58,"29/11/2001","England");
+    ("George Harrison","25","02","1943",58,"29/11/2001","England"),
+    ("United States Congress","4","03","1789",229,"Nei","USA");
     
 INSERT INTO Lokaverkefni.utgefandi
 	(nafn,stefna,copyright,Staðsetning)

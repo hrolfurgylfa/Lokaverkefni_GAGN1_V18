@@ -66,11 +66,11 @@ VALUES
     (4,"Ingibjörg Pálsdóttir","Donald John Trump","The Zoo","1/2/2016"),
     (4,"Ingibjörg Pálsdóttir","Donald John Trump","The Wall","1/2/2016"),
     (4,"Ingibjörg Pálsdóttir","Donald John Trump","5G","1/2/2016"),
-    (1,"Sigurður Davíð Guðjónsson","","",""),#Notandi 3
-    (1,"Sigurður Davíð Guðjónsson","","",""),
-    (1,"Sigurður Davíð Guðjónsson","","",""),
-    (1,"Sigurður Davíð Guðjónsson","","",""),
-    (1,"Sigurður Davíð Guðjónsson","","",""),
+    (3,"Sigurður Davíð Guðjónsson","Ed Sheeran","Shape Of You","6/7/2018"),#Notandi 3
+    (3,"Sigurður Davíð Guðjónsson","Ed Sheeran","Eraser","6/7/2018"),
+    (6,"Sigurður Davíð Guðjónsson","The Beatles","Here Comes the Sun","30/1/1969"),
+    (6,"Sigurður Davíð Guðjónsson","The Beatles","Hello, Goodbye","30/1/1969"),
+    (3,"Sigurður Davíð Guðjónsson","Ed Sheeran","What do i know","6/7/2018"),
     (2,"Ásta Sveinsdóttir","Hatsune Miku","Goodbye","6/6/2018"),#Notandi 4
     (2,"Ásta Sveinsdóttir","Hatsune Miku","Glass Wall","6/6/2018"),
     (2,"Ásta Sveinsdóttir","Hatsune Miku","Hello, Planet","6/6/2018"),

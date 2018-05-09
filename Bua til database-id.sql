@@ -42,7 +42,8 @@ CREATE TABLE Lokaverkefni.askrifandi
 );
 CREATE TABLE Lokaverkefni.tonleikar
 (
-	Tonleikanumer_ID INT PRIMARY KEY AUTO_INCREMENT,
+	ID INT AUTO_INCREMENT PRIMARY KEY,
+	Tonleikanumer_ID INT,
 	flytjandi VARCHAR(255),
     fjöldi_mida INT,
     stadsetning VARCHAR(255),

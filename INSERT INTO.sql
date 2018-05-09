@@ -67,16 +67,16 @@ VALUES
     (1,"Sigurður Davíð Guðjónsson","","",""),
     (1,"Sigurður Davíð Guðjónsson","","",""),
     (1,"Sigurður Davíð Guðjónsson","","",""),
-    (1,"Árni Guðjónsson","","",""),#Notandi 4
-    (1,"Árni Guðjónsson","","",""),
-    (1,"Árni Guðjónsson","","",""),
-    (1,"Árni Guðjónsson","","",""),
-    (1,"Árni Guðjónsson","","",""),
+    (2,"Ásta Sveinsdóttir","Hatsune Miku","Goodbye","6/6/2018"),#Notandi 4
+    (2,"Ásta Sveinsdóttir","Hatsune Miku","Glass Wall","6/6/2018"),
+    (2,"Ásta Sveinsdóttir","Hatsune Miku","Hello, Planet","6/6/2018"),
+    (5,"Ásta Sveinsdóttir","Daniel","Ill Be Scaming You Tonight","12/6/2018"),
+    (5,"Ásta Sveinsdóttir","Daniel","Ill Be Scaming You Tonight","12/6/2018"),
     (2,"Katrín Kristjánsdóttir","Hatsune Miku","Hello, Planet","6/6/2018"),#Notandi 5
     (2,"Katrín Kristjánsdóttir","Hatsune Miku","Glass Wall","6/6/2018"),
     (2,"Katrín Kristjánsdóttir","Hatsune Miku","Goodbye","6/6/2018"),
-    (2,"Katrín Kristjánsdóttir","","",""),
-    (2,"Katrín Kristjánsdóttir","","","");
+    (5,"Katrín Kristjánsdóttir","Daniel","Ill Be Scaming You Tonight","12/6/2018"),
+    (5,"Katrín Kristjánsdóttir","Daniel","Ill Be Scaming You Tonight","12/6/2018");
 
 INSERT INTO Lokaverkefni.lagalisti
 	(nafn_lags,lengd,texti,utgafudagur,utgafumanudur,utgafuar,songvari,hofundur,utgefandi,tegund)

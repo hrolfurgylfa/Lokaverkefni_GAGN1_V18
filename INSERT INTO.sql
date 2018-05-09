@@ -16,7 +16,9 @@ VALUES
     ("Ed Sheeran","17","02","1991",27,"Nei","UK"),
     ("Official Microsoft TechSupport","17","02","1979",27,"Nei","India"),
     ("George Harrison","25","02","1943",58,"29/11/2001","England"),
-    ("United States Congress","4","03","1789",229,"Nei","USA");
+    ("United States Congress","4","03","1789",229,"Nei","USA"),
+    ("Call Center India","17","02","1997",21,"Nei","Inida"),
+    ("Lenon-McCartney","09","10","1940",40,"1980","USA");
     
 INSERT INTO Lokaverkefni.utgefandi
 	(nafn,stefna,copyright,Staðsetning)
@@ -28,6 +30,7 @@ VALUES
     ("Atlantic Records","Engin Sérstök Stefna","Já","USA"),
     ("Official Microsoft TechSupport","scams","Já","India"),
     ("Apple Records","Margar","nei","UK"),
+    ("Capitol","Margar","Já","USA"),
     ("United States Congress","Stjórnmál","Nei","USA");
     
 INSERT INTO Lokaverkefni.askrifandi
@@ -44,11 +47,12 @@ VALUES
 INSERT INTO Lokaverkefni.tonleikar
 	(flytjandi,fjöldi_mida,stadsetning,dagsetning,verd)
 VALUES
-	("Hatsune Miku",53,"Shanghi","24/5/2018",3500),
-    ("Hatsune Miku",82,"Florida","6/6/2018",2500),
-    ("Ed Sheeran",96,"Belfast","6/7/2018",3000),
-    ("Donald John Trump",9000000,"Alabama, We Need To Build a Wall!","1/2/2016",0),;
-
+	("Hatsune Miku",4,"Shanghi","24/5/2018",3500),
+    ("Hatsune Miku",2,"Florida","6/6/2018",2500),
+    ("Ed Sheeran",4,"Belfast","6/7/2018",3000),
+    ("Donald John Trump",9000000,"Alabama, We Need To Build a Wall!","1/2/2016",0),
+    ("Daniel",56,"Scaming in Chicago","12/6/2018",1000000);
+    
 INSERT INTO Lokaverkefni.lagaval
 	(Tonleikanumer_ID,askrifandi,flytjandi,lag,dagsetning)
 VALUES
@@ -88,11 +92,11 @@ VALUES
 	("Shape Of You",233,"Lorem Ipsum",6,1,2017,"Ed Sheeran","Ed Sheeran","Atlantic Records","POP"),
     ("Eraser",277,"Lorem Ipsum",3,4,2017,"Ed Sheeran","Ed Sheeran","Atlantic Records","Acoustic hip hop"),
     ("Here Comes the Sun",193,"Lorem Ipsum",0,0,1969,"The Beatles","George Harrison","Apple Records","POP Rock"),#Tónlistamaður 3
-    ("",,"Lorem Ipsum",,,,"","","","Jass"),
-    ("",,"Lorem Ipsum",,,,"","","","Jass"),
-	("Ill Be Scaming You Tonight",,"Lorem Ipsum",,,,"","","","Pop"),#Tónlistamaður 4
-    ("",,"Lorem Ipsum",,,,"","","","Pop"),
-    ("",,"Lorem Ipsum",,,,"","","","Pop"),
+    ("Hey Jude",489,"Lorem Ipsum",26,9,1968,"The Beatles","Lennon-McCartney","Apple Records","Rock"),
+    ("Hello, Goodbye",207,"Lorem Ipsum",24,11,1967,"The Beatles","Lennon-McCartney","Capitol","Pop"),
+	("Ill Be Scaming You Tonight",280,"Lorem Ipsum",12,12,2012,"Daniel","Official Microsoft TechSupport","Official Microsoft TechSupport","Scam"),#Tónlistamaður 4
+    ("Your Money In My Pockets",301,"Lorem Ipsum",15,11,2011,"Daniel","Daniel","Official Microsoft TechSupport","Scam"),
+    ("Call Me Please",400,"Lorem Ipsum",12,02,2018,"Daniel","Call Center India","Official Microsoft TechSupport","Beging"),
 	("5G",10531,"We Need to Build 5G:|*50 We Need 5G to Keep The Internet Ours |:We Need to Build 5G:|*50",1,2,2016,"Donald John Trump","United States Congress","United States Congress","Klasísk"),#Tónlistamaður 5
     ("The Wall",10541,"We Need to Build a Wall:|*50 We Need a Wall to Keep The Mexicans Out |:We Need to Build a Wall:|*50",1,2,2016,"Donald John Trump","United States Congress","United States Congress","Klasísk"),
     ("The Zoo",10542,"We Need to Build a Zoo:|*50 We Need a Zoo to Keep The Mexicans In |:We Need to Build a Zoo:|*50",1,2,2016,"Donald John Trump","United States Congress","United States Congress","Klasísk");

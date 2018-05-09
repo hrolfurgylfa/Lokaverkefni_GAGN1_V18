@@ -112,25 +112,5 @@ VALUES
     ("",,"Lorem Ipsum",,,,"","","","Pop"),
 	("5G",10531,"We Need to Build 5G:|*50 We Need 5G to Keep The Internet Ours |:We Need to Build 5G:|*50",1,2,2016,"Donald John Trump","United States Congress","United States Congress","Klasísk"),#Tónlistamaður 5
     ("The Wall",10541,"We Need to Build a Wall:|*50 We Need a Wall to Keep The Mexicans Out |:We Need to Build a Wall:|*50",1,2,2016,"Donald John Trump","United States Congress","United States Congress","Klasísk"),
-    ("The Zoo",10542,"We Need to Build a Zoo:|*50 We Need a Zoo to Keep The Mexicans In |:We Need to Build a Zoo:|*50",1,2,2016,"Donald John Trump","United States Congress","United States Congress","Klasísk"),
-	("",,"Lorem Ipsum",,,,"","","","Pop"),#Tónlistamaður 6
-    ("",,"Lorem Ipsum",,,,"","","","Pop"),
-    ("",,"Lorem Ipsum",,,,"","","","Pop"),
-	("",,"Lorem Ipsum",,,,"","","","Rokk"),#Tónlistamaður 7
-    ("",,"Lorem Ipsum",,,,"","","","Rokk"),
-    ("",,"Lorem Ipsum",,,,"","","","Rokk"),
-	("",,"Lorem Ipsum",,,,"","","","Raftónlist"),#Tónlistamaður 8
-    ("",,"Lorem Ipsum",,,,"","","","Raftónlist"),
-    ("",,"Lorem Ipsum",,,,"","","","Raftónlist"),
-	("",,"Lorem Ipsum",,,,"","","","Klasísk"),#Tónlistamaður 9
-    ("",,"Lorem Ipsum",,,,"","","","Klasísk"),
-    ("",,"Lorem Ipsum",,,,"","","","Klasísk"),
-	("",,"Lorem Ipsum",,,,"","","","Rap"),#Tónlistamaður 10
-    ("",,"Lorem Ipsum",,,,"","","","Rap"),
-    ("",,"Lorem Ipsum",,,,"","","","Rap");
-
-
-
-
-
+    ("The Zoo",10542,"We Need to Build a Zoo:|*50 We Need a Zoo to Keep The Mexicans In |:We Need to Build a Zoo:|*50",1,2,2016,"Donald John Trump","United States Congress","United States Congress","Klasísk");
 

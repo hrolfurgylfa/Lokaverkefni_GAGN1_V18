@@ -54,8 +54,4 @@
 #GROUP BY (lagalisti.songvari);
 
 #Eftirspurn 14
-SELECT songvari,Count(songvari) AS "Fjöldi laga" FROM Lokaverkefni.lagalisti GROUP BY songvari;
-
-/*SELECT nafn, aldur, nafn_lags FROM Lokaverkefni.lagalisti
-JOIN flytjandi ON flytjandi.nafn = lagalisti.songvari;*/
-
+#SELECT songvari,Count(songvari) AS "Fjöldi laga" FROM Lokaverkefni.lagalisti GROUP BY songvari;

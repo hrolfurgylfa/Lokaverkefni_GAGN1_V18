@@ -45,7 +45,7 @@
 #utgafuar < 2015;
 
 #Eftirspurn 12
-SELECT FROM Lokaverkefni.
+#SELECT SUM(lengd)/Count(nafn_lags) AS "Meðallengd" FROM Lokaverkefni.lagalisti;
 
 #Eftirspurn 13
 #SELECT nafn, lysing FROM Lokaverkefni.flytjandi
@@ -54,7 +54,7 @@ SELECT FROM Lokaverkefni.
 #GROUP BY (lagalisti.songvari);
 
 #Eftirspurn 14
-#SELECT FROM Lokaverkefni.
+SELECT songvari,Count(songvari) AS "Fjöldi laga" FROM Lokaverkefni.lagalisti GROUP BY songvari;
 
 /*SELECT nafn, aldur, nafn_lags FROM Lokaverkefni.lagalisti
 JOIN flytjandi ON flytjandi.nafn = lagalisti.songvari;*/
